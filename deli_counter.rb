@@ -21,7 +21,7 @@ def take_a_number(katz_deli, name)
     katz_deli.unshift(name)
      puts "Welcome, #{name}. You are number #{num} in line."
   elsif counter > 0
-     katz_deli = katz_deli << name
+     katz_deli << name
      katz_deli.each do |name|
   		puts "Welcome, #{name}. You are number #{num} in line."
   		num += 1
