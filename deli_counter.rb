@@ -23,7 +23,6 @@ def take_a_number(katz_deli, name)
   elsif counter > 0
      katz_deli.each do |name|
   		puts "Welcome, #{name}. You are number #{num} in line."
-      katz_deli << name
   		num += 1
     end
   end
