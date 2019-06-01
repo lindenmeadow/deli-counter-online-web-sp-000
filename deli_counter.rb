@@ -24,7 +24,6 @@ def take_a_number(katz_deli, name)
      katz_deli << name
      num = counter
      puts "Welcome, #{name}. You are number #{num} in line."
-    end
   end
 end
 
