@@ -22,7 +22,7 @@ def take_a_number(katz_deli, name)
      puts "Welcome, #{name}. You are number #{num} in line."
   elsif counter > 0
      katz_deli << name
-     num = counter
+     num = katz_deli.length
      puts "Welcome, #{name}. You are number #{num} in line."
   end
 end
