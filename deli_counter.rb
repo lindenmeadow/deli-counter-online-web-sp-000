@@ -16,14 +16,12 @@ end
 
 def take_a_number(katz_deli, name)
   counter = katz_deli.length
-  num = 1
   if counter == 0
+    num = 1
     katz_deli.unshift(name)
      puts "Welcome, #{name}. You are number #{num} in line."
   elsif counter > 0
      katz_deli << name
-     katz_deli.each do |name|
-  		puts "Welcome, #{name}. You are number #{num} in line."
   		num += 1
     end
   end
